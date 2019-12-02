@@ -1,0 +1,23 @@
+<h1>Belajar HTML</h1>
+<h2>Menghitung Luas Segitiga</h2>
+<div id="content">
+Alas : <input id="alas"><br>
+Tinggi : <input id="tinggi"><br>
+	<input type="submit" value="Hitung" onclick="HitungLuasSegitiga()">
+	<div id="hasil">
+	
+	</div>
+	
+</div>
+
+<script>
+	function HitungLuasSegitiga(){
+	var  a = document.getElementById('alas').value;
+	var  t = document.getElementById('tinggi').value;
+	var  hasil = document.getElementById('hasil');
+	var luas = (a * t)/2;
+	hasil.innerText = luas;
+	console.log(luas);
+	}
+	
+</script>
