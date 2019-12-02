@@ -10,6 +10,16 @@ Tinggi : <input id="tinggi"><br>
 	
 </div>
 
+<h2>Menghitung Luas Segi Empat</h2>
+<div id="content">
+sisi : <input id="sisi"><br>
+	<input type="submit" value="Hitung" onclick="HitungLuasSegiEmpat()">
+	<div id="hasil-2">
+	
+	</div>
+	
+</div>
+
 <script>
 	function HitungLuasSegitiga(){
 	var  a = document.getElementById('alas').value;
@@ -20,4 +30,12 @@ Tinggi : <input id="tinggi"><br>
 	console.log(luas);
 	}
 	
+	function HitungLuasSegiEmpat(){
+	var  sisi = document.getElementById('sisi').value;
+	
+	var  hasil = document.getElementById('hasil-2');
+	var luas = (sisi*sisi);
+	hasil.innerText = luas;
+	console.log(luas);
+	}
 </script>
