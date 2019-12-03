@@ -8,6 +8,7 @@ lihat perubahan
 tambah baris 1
 
 belajar github (git fetch)
-
+•	Sedangkan git fetch akan mengambil commit saja. Perintah git fetch tidak akan langsung melakukan merge
 
 belajar github (git pull) 
+•	Perintah git pull akan mengambil commit terbaru lalu otomatis menggabungkan (merge) dengan branch yang aktif.
