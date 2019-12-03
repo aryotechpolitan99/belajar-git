@@ -1,2 +1,6 @@
 ini di cabang master
 ini dicabang belajar master
+
+
+test perubahan dalam satu file yang sama
+namun commit yang berbeda dari masing - masing file
