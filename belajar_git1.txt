@@ -6,3 +6,5 @@ TEKS BESAR
 
 lihat perubahan
 tambah baris 1
+
+belajar git hub (git ftch)
